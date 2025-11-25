@@ -1,0 +1,22 @@
+{
+  "appId": "com.wthr.app",
+  "appName": "WTH*R",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "StatusBar": {
+      "style": "DEFAULT",
+      "overlaysWebView": true
+    },
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "Keyboard": {
+      "resize": "none",
+      "style": "DARK",
+      "resizeOnFullScreen": true
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "wth/r",
+  "name": "WTH/R",
   "description": "An unapologetically honest weather app.",
   "requestFramePermissions": [
     "geolocation"

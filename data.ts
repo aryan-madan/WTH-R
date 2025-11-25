@@ -1,5 +1,19 @@
 import { Msg } from './types';
 
+export const nerdMsg = (): Msg => {
+  const list = [
+    { head: "What are you, a nerd?", sub: "Here is your precious data. Content yourself." },
+    { head: "Nobody cares.", sub: "Knowing the barometric pressure won't make you interesting." },
+    { head: "Touch grass.", sub: "Or don't. The UV index suggests you'll burn anyway." },
+    { head: "Wow, numbers.", sub: "Do you feel smarter now? You don't look smarter." },
+    { head: "Why are you here?", sub: "Just look at the sky." },
+    { head: "Planning a picnic?", sub: "We both know you have nobody to go with." },
+    { head: "Analyze this.", sub: "Maybe calculate the probability of you dying alone." },
+    { head: "Overachiever.", sub: "Checking the wind direction? Who do you think you are?" }
+  ];
+  return list[Math.floor(Math.random() * list.length)];
+};
+
 export const msg = (code: number, day: number, temp: number): Msg => {
   
   // scorching (>35)

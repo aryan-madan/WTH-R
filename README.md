@@ -1,6 +1,7 @@
 # wth/r
 
 yes it's a pun on weather and 'what the hell' (wth)
+
 honest weather for people who hate checking the weather.
 
 ## why

@@ -1,4 +1,4 @@
-# wth/r
+# WTH/R
 
 yes it's a pun on weather and 'what the hell' (wth)
 

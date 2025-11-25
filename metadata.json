@@ -1,0 +1,7 @@
+{
+  "name": "wth/r",
+  "description": "An unapologetically honest weather app.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

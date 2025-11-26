@@ -1,0 +1,58 @@
+PODS:
+  - Capacitor (6.2.1):
+    - CapacitorCordova
+  - CapacitorCordova (6.2.1)
+  - CapacitorDevice (6.0.2):
+    - Capacitor
+  - CapacitorGeolocation (6.1.0):
+    - Capacitor
+  - CapacitorKeyboard (6.0.3):
+    - Capacitor
+  - CapacitorSplashScreen (6.0.3):
+    - Capacitor
+  - CapacitorStatusBar (6.0.2):
+    - Capacitor
+  - StayLiquid (0.1.0):
+    - Capacitor (>= 6.0.0)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorDevice (from `../../node_modules/@capacitor/device`)"
+  - "CapacitorGeolocation (from `../../node_modules/@capacitor/geolocation`)"
+  - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorSplashScreen (from `../../node_modules/@capacitor/splash-screen`)"
+  - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+  - StayLiquid (from `../../node_modules/stay-liquid`)
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorDevice:
+    :path: "../../node_modules/@capacitor/device"
+  CapacitorGeolocation:
+    :path: "../../node_modules/@capacitor/geolocation"
+  CapacitorKeyboard:
+    :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorSplashScreen:
+    :path: "../../node_modules/@capacitor/splash-screen"
+  CapacitorStatusBar:
+    :path: "../../node_modules/@capacitor/status-bar"
+  StayLiquid:
+    :path: "../../node_modules/stay-liquid"
+
+SPEC CHECKSUMS:
+  Capacitor: c95400d761e376be9da6be5a05f226c0e865cebf
+  CapacitorCordova: 8d93e14982f440181be7304aa9559ca631d77fff
+  CapacitorDevice: 9efd479d71d1baad74b75df531184c3f730eaa48
+  CapacitorGeolocation: 3f6c960e6d9d11c83fcdd181c4912604857afb51
+  CapacitorKeyboard: e89189ad398b815b6ff7e52271f0fb4f911a0a0a
+  CapacitorSplashScreen: fd8bf1bf9081d9aa8817b7cd37d740d1bdaf2fb2
+  CapacitorStatusBar: b16799a26320ffa52f6c8b01737d5a95bbb8f3eb
+  StayLiquid: dac4b6cd7761472754f97d367ba4651ca79fcd2e
+
+PODFILE CHECKSUM: 53ba57e09dea100af0303da871385c70db15d578
+
+COCOAPODS: 1.16.2

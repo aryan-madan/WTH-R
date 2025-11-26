@@ -5,24 +5,26 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "cap:sync": "npx cap sync",
     "cap:open": "npx cap open ios"
   },
   "dependencies": {
-    "@capacitor/core": "^6.2.1",
-    "@capacitor/geolocation": "^6.1.0",
-    "@capacitor/ios": "^6.2.1",
-    "@capacitor/keyboard": "^6.0.3",
-    "@capacitor/splash-screen": "^6.0.3",
-    "@capacitor/status-bar": "^6.0.2",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/device": "^6.0.0",
+    "@capacitor/geolocation": "^6.0.0",
+    "@capacitor/ios": "^6.0.0",
+    "@capacitor/keyboard": "^6.0.0",
+    "@capacitor/splash-screen": "^6.0.0",
+    "@capacitor/status-bar": "^6.0.0",
     "lucide-react": "^0.350.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "stay-liquid": "github:alistairheath/stay-liquid"
   },
   "devDependencies": {
-    "@capacitor/cli": "^6.2.1",
+    "@capacitor/cli": "^6.0.0",
     "@types/node": "^24.10.1",
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.21",
@@ -30,7 +32,7 @@
     "autoprefixer": "^10.4.18",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.9.3",
+    "typescript": "^5.2.2",
     "vite": "^5.4.21"
   }
 }
